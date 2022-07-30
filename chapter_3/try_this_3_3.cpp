@@ -7,5 +7,6 @@ int main()
     double age;
     cin >> first_name;
     cin >> age;
-    cout << "Hello, " << first_name << " (age " << age * 12 << " months)\n";
+    cout << "Hello, " << first_name
+         << " (age " << age * 12 << " months)\n";
 }
