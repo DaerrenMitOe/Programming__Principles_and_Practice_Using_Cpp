@@ -6,7 +6,7 @@ int main()
     string num;
     cin >> num;
 
-    if(num == "zero")
+    if (num == "zero")
         cout << "0";
     else if (num == "one")
         cout << "1";

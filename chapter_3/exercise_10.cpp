@@ -11,19 +11,19 @@ int main()
 
     if (operation == "+")
         cout << num1 + num2;
-    else if(operation == "-")
+    else if (operation == "-")
         cout << num1 - num2;
-    else if(operation == "*")
+    else if (operation == "*")
         cout << num1 * num2;
-    else if(operation == "/")
+    else if (operation == "/")
         cout << num1 / num2;
     else if (operation == "plus")
         cout << num1 + num2;
-    else if(operation == "minus")
+    else if (operation == "minus")
         cout << num1 - num2;
-    else if(operation == "mul")
+    else if (operation == "mul")
         cout << num1 * num2;
-    else if(operation == "div")
+    else if (operation == "div")
         cout << num1 / num2;
     else
         cout << "wrong operation";

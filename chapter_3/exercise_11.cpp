@@ -26,7 +26,6 @@ int main()
     int dollar;
     cin >> dollar;
 
-
     if (penny == 1)
         cout << "\nYou have " << penny << " penny";
     else
@@ -56,7 +55,6 @@ int main()
         cout << "\nYou have " << dollar << " dollar";
     else
         cout << "\nYou have " << dollar << " dollars";
-
 
     double money = dollar + half_dollar * 0.5 + quarter * 0.25 + dime * 0.1 + nickel * 0.05 + penny * 0.01;
     cout << "\nThe value of all your coins is $" << money << ".\n";

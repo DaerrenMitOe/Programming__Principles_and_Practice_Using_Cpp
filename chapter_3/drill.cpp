@@ -2,19 +2,19 @@
 
 int main()
 {
-    cout << "Enter the name of the person you want to write to\n";
+    cout << "Enter the name of the person you want to write to:\n";
     string first_name;
     cin >> first_name;
     cout << "Dear " << first_name << ",\n"
 
          << "How are you? I am fine. I miss you.\n"
 
-         << "Enter the name of an atother friend you want to write to\n";
+         << "Enter the name of an atother friend you want to write to:\n";
     string friend_name;
     cin >> friend_name;
     cout << "Have you seen " << friend_name << " laterly?\n"
 
-         << "Enter an m if the friend is male and an f if the friend is female\n";
+         << "Enter an m if the friend is male and an f if the friend is female:\n";
     char friend_sex = '0';
     cin >> friend_sex;
     if (friend_sex == 'm')

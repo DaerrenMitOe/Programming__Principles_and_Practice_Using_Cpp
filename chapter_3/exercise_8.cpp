@@ -6,10 +6,10 @@ int main()
     int val;
     cin >> val;
 
-    if (val % 2 == 0)
-        cout << "The value of " << val
-             << " is an even number";
-    else
+    if (val % 2)
         cout << "The value of " << val
              << " is an odd number";
+    else
+        cout << "The value of " << val
+             << " is an even number";
 }

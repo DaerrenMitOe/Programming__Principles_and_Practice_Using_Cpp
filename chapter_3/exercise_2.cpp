@@ -6,7 +6,6 @@ int main()
 		 << "\nMile: ";
 	double mile;
 	cin >> mile;
-	double kilometer;
-	kilometer = mile * 1.609;
+	double kilometer = mile * 1.609;
 	cout << "Kilometer: " << kilometer;
 }
