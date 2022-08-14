@@ -15,5 +15,6 @@ int main()
          << "\nn squared == " << n * n
          << "\nhalf of n == " << m / 2
          << "\nmodulo of n == " << n % 2
-         << "\nsquare root of n == " << sqrt(m) << '\n';
+         << "\nsquare root of n == " << sqrt(m)
+         << '\n';
 }
