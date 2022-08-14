@@ -7,7 +7,7 @@
 	// Placeholders with the same ids are connected.
 	// Example:
 	"": {
-		"prefix": "main",
+		"prefix": "basic",
 		"body": [
 		  "#include \"../std_lib_facilities.h\"",
 		  "",
