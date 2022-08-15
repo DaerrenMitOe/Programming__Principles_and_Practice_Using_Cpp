@@ -2,9 +2,10 @@
 
 int main()
 {
-    cout << "Please enter your first name and age\n";
     string first_name;
     double age;
+
+    cout << "Please enter your first name and age\n";
     cin >> first_name;
     cin >> age;
     cout << "Hello, " << first_name

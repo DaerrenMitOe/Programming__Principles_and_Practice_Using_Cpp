@@ -9,6 +9,7 @@ int main()
     {
         if (previous == current)
             cout << "repeated word: " << current << '\n';
+            
         previous = current;
     }
 }

@@ -2,28 +2,20 @@
 
 int main()
 {
+    int penny, nickel, dime, quarter, half_dollar, dollar;
+    double sum;
+
     cout << "How many pennies do you have? ";
-    int penny;
     cin >> penny;
-
     cout << "How many nickels do you have? ";
-    int nickel;
     cin >> nickel;
-
     cout << "How many dimes do you have? ";
-    int dime;
     cin >> dime;
-
     cout << "How many quarters do you have? ";
-    int quarter;
     cin >> quarter;
-
     cout << "How many half dollars do you have? ";
-    int half_dollar;
     cin >> half_dollar;
-
     cout << "How many dollars do you have? ";
-    int dollar;
     cin >> dollar;
 
     if (penny == 1)
@@ -56,6 +48,7 @@ int main()
     else
         cout << "\nYou have " << dollar << " dollars";
 
-    double money = dollar + half_dollar * 0.5 + quarter * 0.25 + dime * 0.1 + nickel * 0.05 + penny * 0.01;
-    cout << "\nThe value of all your coins is $" << money << ".\n";
+    sum = dollar + half_dollar * 0.5 + quarter * 0.25 + dime * 0.1 + nickel * 0.05 + penny * 0.01;
+    
+    cout << "\nThe value of all your coins is $" << sum << ".\n";
 }

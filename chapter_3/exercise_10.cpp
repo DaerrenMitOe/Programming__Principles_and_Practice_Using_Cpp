@@ -2,29 +2,28 @@
 
 int main()
 {
-    cout << "Operation Number Number\n";
     string operation;
-    double num1;
-    double num2;
+    double num1, num2;
 
+    cout << "Enter an operation and two numbers\n";
     cin >> operation >> num1 >> num2;
 
     if (operation == "+")
-        cout << num1 + num2;
+        cout << num1 + num2 << '\n';
     else if (operation == "-")
-        cout << num1 - num2;
+        cout << num1 - num2 << '\n';
     else if (operation == "*")
-        cout << num1 * num2;
+        cout << num1 * num2 << '\n';
     else if (operation == "/")
-        cout << num1 / num2;
+        cout << num1 / num2 << '\n';
     else if (operation == "plus")
-        cout << num1 + num2;
+        cout << num1 + num2 << '\n';
     else if (operation == "minus")
-        cout << num1 - num2;
+        cout << num1 - num2 << '\n';
     else if (operation == "mul")
-        cout << num1 * num2;
+        cout << num1 * num2 << '\n';
     else if (operation == "div")
-        cout << num1 / num2;
+        cout << num1 / num2 << '\n';
     else
-        cout << "wrong operation";
+        cout << "wrong operation\n";
 }

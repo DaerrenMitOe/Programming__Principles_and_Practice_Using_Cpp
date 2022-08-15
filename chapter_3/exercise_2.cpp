@@ -2,10 +2,10 @@
 
 int main()
 {
-	cout << "Convert mile to kilometer"
-		 << "\nMile: ";
-	double mile;
-	cin >> mile;
-	double kilometer = mile * 1.609;
-	cout << "Kilometer: " << kilometer;
+	double miles;
+
+	cout << "Enter miles to convert to kilometers\n"
+		 << "Miles: ";
+	cin >> miles;
+	cout << "Kilometers: " << mile * 1.609 << '\n';
 }

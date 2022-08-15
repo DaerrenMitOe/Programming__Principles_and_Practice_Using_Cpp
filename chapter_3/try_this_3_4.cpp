@@ -2,11 +2,13 @@
 
 int main()
 {
-    cout << "Please enter a integer value: ";
     int n;
-    cin >> n;
     double m;
+
+    cin >> n;
+
     m = n;
+
     cout << "n == " << n
          << "\nn + 1 == " << n + 1
          << "\nn - 1 == " << n - 1

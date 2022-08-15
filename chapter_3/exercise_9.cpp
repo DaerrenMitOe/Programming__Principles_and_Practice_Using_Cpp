@@ -2,8 +2,9 @@
 
 int main()
 {
-    cout << "Converts spelled-out numbers to digits\n";
     string num;
+
+    cout << "Enter a spelled-out number to convert to digits\n";
     cin >> num;
 
     if (num == "zero")
@@ -17,5 +18,5 @@ int main()
     else if (num == "four")
         cout << "4";
     else
-        cout << "not a number I know";
+        cout << "Not a number I know...stupid computer!\n";
 }
