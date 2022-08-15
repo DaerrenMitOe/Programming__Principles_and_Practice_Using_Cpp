@@ -1,15 +1,14 @@
 #include "../std_lib_facilities.h"
 
-
 int main()
 {
-    int number1, number2;
-    while(true){
-        cin >> number1 >> number2;
-        if(number1 == '|' || number2 == '|'){
-            break;
-        } else {
-            cout << number1 << " " << number2 << '\n';
-        }
+    int num1, num2;
+
+    cout << "Enter two numbers and enter | to exit.\n";
+
+    while (cin >> num1 >> num2)
+    {
+        cout << num1 << " " << num2 << '\n';
+        cout << "Enter two numbers and enter | to exit.\n";
     }
 }

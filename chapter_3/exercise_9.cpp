@@ -4,7 +4,7 @@ int main()
 {
     string num;
 
-    cout << "Enter a spelled-out number to convert to digits\n";
+    cout << "Please enter a spelled-out number to convert to digits:\n";
     cin >> num;
 
     if (num == "zero")

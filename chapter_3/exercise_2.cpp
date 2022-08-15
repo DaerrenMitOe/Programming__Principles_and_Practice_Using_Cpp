@@ -4,7 +4,7 @@ int main()
 {
 	double miles;
 
-	cout << "Enter miles to convert to kilometers\n"
+	cout << "Please enter miles to convert to kilometers\n"
 		 << "Miles: ";
 	cin >> miles;
 	cout << "Kilometers: " << mile * 1.609 << '\n';

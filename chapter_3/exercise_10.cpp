@@ -5,8 +5,13 @@ int main()
     string operation;
     double num1, num2;
 
-    cout << "Enter an operation and two numbers\n";
-    cin >> operation >> num1 >> num2;
+    cout << "Please enter an operation and two numbers\n";
+    cout << "Operation: ";
+    cin >> operation;
+    cout << "Number 1: ";
+    cin >> num1;
+    cout << "Number 2: ";
+    cin >> num2;
 
     if (operation == "+")
         cout << num1 + num2 << '\n';

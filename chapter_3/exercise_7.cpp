@@ -5,7 +5,7 @@ int main()
     string val1, val2;
     string num1, num2, num3;
 
-    cout << "Enter three string values to sort"
+    cout << "Please enter three string values to sort"
          << "\nValue 1: ";
     cin >> val1;
     cout << "Value 2: ";

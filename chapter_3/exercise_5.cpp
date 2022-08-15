@@ -4,7 +4,7 @@ int main()
 {
     double val1, val2;
 
-    cout << "Enter two floating-point values"
+    cout << "Please enter two floating-point values"
          << "\nValue 1: ";
     cin >> val1;
     cout << "Value 2: ";

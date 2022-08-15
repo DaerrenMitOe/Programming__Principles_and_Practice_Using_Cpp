@@ -4,7 +4,7 @@ int main()
 {
 	int val1, val2;
 
-	cout << "Enter two integer values"
+	cout << "Please enter two integer values"
 		 << "\nValue 1: ";
 	cin >> val1;
 	cout << "Value 2: ";

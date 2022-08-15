@@ -4,7 +4,7 @@ int main()
 {
     int val;
 
-    cout << "Enter an interger value to check if it's odd or even\n";
+    cout << "Please enter an interger value to check if it's odd or even:\n";
     cin >> val;
 
     if (val % 2)

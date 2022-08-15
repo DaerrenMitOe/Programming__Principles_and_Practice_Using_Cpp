@@ -5,7 +5,7 @@ int main()
     int val1, val2;
     int num1, num2, num3;
 
-    cout << "Enter three integer values to sort"
+    cout << "Please enter three integer values to sort"
          << "\nValue 1: ";
     cin >> val1;
     cout << "Value 2: ";
