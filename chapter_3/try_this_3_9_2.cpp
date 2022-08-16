@@ -9,7 +9,7 @@ int main()
         int i = d;
         char c = i;
         int i2 = c;
-        
+
         cout << "d == " << d
              << " i == " << i
              << " i2 == " << i2

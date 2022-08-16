@@ -21,9 +21,8 @@
 			"group": {
 				"kind": "build",
 				"isDefault": true
-			  },
+			},
 			"detail": "compiler: /usr/bin/g++"
 		}
-
 	]
 }
