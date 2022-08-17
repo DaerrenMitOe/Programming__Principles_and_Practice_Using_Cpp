@@ -19,4 +19,8 @@ int main()
          << "\nmodulo of n == " << n % 2
          << "\nsquare root of n == " << sqrt(m)
          << '\n';
+
+    keep_window_open();
+
+    return 0;
 }

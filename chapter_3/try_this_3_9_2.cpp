@@ -15,4 +15,8 @@ int main()
              << " i2 == " << i2
              << " char(" << c << ")\n";
     }
+
+    keep_window_open();
+
+    return 0;
 }

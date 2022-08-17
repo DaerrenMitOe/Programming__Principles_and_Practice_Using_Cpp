@@ -13,4 +13,8 @@ int main()
     else
         cout << "The value of " << val
              << " is an even number\n";
+
+    keep_window_open();
+
+    return 0;
 }

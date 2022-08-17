@@ -31,4 +31,8 @@ int main()
         cout << num1 / num2 << '\n';
     else
         cout << "wrong operation\n";
+
+    keep_window_open();
+
+    return 0;
 }

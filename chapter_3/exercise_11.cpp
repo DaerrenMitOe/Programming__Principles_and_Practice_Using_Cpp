@@ -51,4 +51,8 @@ int main()
     sum = dollar + half_dollar * 0.5 + quarter * 0.25 + dime * 0.1 + nickel * 0.05 + penny * 0.01;
 
     cout << "\nThe value of all your coins is $" << sum << ".\n";
+
+    keep_window_open();
+
+    return 0;
 }

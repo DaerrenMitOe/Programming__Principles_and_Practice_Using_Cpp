@@ -19,4 +19,8 @@ int main()
         cout << "4";
     else
         cout << "Not a number I know...stupid computer!\n";
+
+    keep_window_open();
+
+    return 0;
 }

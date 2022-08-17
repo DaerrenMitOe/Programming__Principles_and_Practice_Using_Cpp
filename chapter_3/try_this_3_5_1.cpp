@@ -12,4 +12,8 @@ int main()
 
         previous = current;
     }
+
+    keep_window_open();
+
+    return 0;
 }

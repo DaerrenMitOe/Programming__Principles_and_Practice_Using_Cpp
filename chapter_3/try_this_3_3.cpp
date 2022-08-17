@@ -10,4 +10,8 @@ int main()
     cin >> age;
     cout << "Hello, " << first_name
          << " (age " << age * 12 << " months)\n";
+
+    keep_window_open();
+
+    return 0;
 }

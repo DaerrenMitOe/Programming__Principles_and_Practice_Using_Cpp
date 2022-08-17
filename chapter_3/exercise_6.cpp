@@ -32,4 +32,8 @@ int main()
 
     else
         cout << num1 << " " << num2 << " " << num3 << '\n';
+
+    keep_window_open();
+
+    return 0;
 }

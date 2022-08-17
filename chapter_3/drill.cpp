@@ -53,4 +53,8 @@ int main()
     // 7
     cout << "Yours sincerely,"
          << "\n\n\nDaerrenMitOe\n";
+
+    keep_window_open();
+
+    return 0;
 }

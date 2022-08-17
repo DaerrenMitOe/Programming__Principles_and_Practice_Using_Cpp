@@ -18,4 +18,8 @@ int main()
                  << "\n\nEnter two numbers or | to exit.\n";
         }
     }
+
+    keep_window_open();
+
+    return 0;
 }

@@ -8,4 +8,8 @@ int main()
 		 << "Miles: ";
 	cin >> miles;
 	cout << "Kilometers: " << miles * 1.609 << '\n';
+
+	keep_window_open();
+
+	return 0;
 }

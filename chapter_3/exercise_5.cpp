@@ -24,4 +24,8 @@ int main()
 		 << "\nThe ratio between Value 1 and Value 2 is " << val1 / val2
 		 << "\nThe ratio between Value 2 and Value 1 is " << val2 / val1
 		 << '\n';
+
+	keep_window_open();
+
+	return 0;
 }
