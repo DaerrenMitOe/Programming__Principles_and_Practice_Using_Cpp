@@ -2,14 +2,15 @@
 
 int main()
 {
-    vector<int> num(2);
+    vector<double> num(2);
 
     cout << "Enter two numbers or | to exit.\n";
 
     while (cin >> num[0] >> num[1])
     {
         if (num[0] == num[1])
-            cout << "\nEnter two numbers or | to exit.\n";
+            cout << "The numbers are equal"
+                 << "\n\nEnter two numbers or | to exit.\n";
         else
         {
             sort(num);

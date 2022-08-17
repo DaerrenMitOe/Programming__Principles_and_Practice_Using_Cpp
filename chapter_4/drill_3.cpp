@@ -9,7 +9,8 @@ int main()
     while (cin >> num[0] >> num[1])
     {
         if (num[0] == num[1])
-            cout << "\nEnter two numbers or | to exit.\n";
+            cout << "The numbers are equal"
+                 << "\n\nEnter two numbers or | to exit.\n";
         else
         {
             sort(num);

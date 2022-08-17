@@ -2,13 +2,14 @@
 
 int main()
 {
-    int num1, num2;
+    vector<int> num(2);
 
     cout << "Enter two numbers or | to exit.\n";
 
-    while (cin >> num1 >> num2)
+    while (cin >> num[0] >> num[1])
     {
-        cout << num1 << " " << num2
-             << "\nEnter two numbers or | to exit.\n\n";
+        cout << "Number 1: " << num[0]
+             << "\nNumber 2: " << num[1]
+             << "\n\nEnter two numbers or | to exit.\n";
     }
 }
