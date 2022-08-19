@@ -1,3 +1,3 @@
-# Programming__Principles_and_Practice_Using_Cpp
+# Programming - Principles and Practice Using C++
 
-My Solution for Programming - Principles and Practice Using Cpp
+My Solution for Programming - Principles and Practice Using C++
