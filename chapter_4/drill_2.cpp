@@ -8,15 +8,11 @@ int main()
 
     while (cin >> num[0] >> num[1])
     {
-        if (num[0] == num[1])
-            cout << "\nEnter two numbers or | to exit.\n";
-        else
-        {
-            sort(num);
-            cout << "The smaller value is: " << num[0]
-                 << "\nThe larger value is: " << num[1]
-                 << "\n\nEnter two numbers or | to exit.\n";
-        }
+        sort(num);
+
+        cout << "The smaller value is: " << num.begin()
+             << "\nThe larger value is: " << num.end()
+             << "\n\nEnter two numbers or | to exit.\n";
     }
 
     keep_window_open();

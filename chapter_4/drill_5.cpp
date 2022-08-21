@@ -16,7 +16,8 @@ int main()
         else
         {
             sort(num);
-            if (num[1] - num[0] < 1.0 / 100)
+
+            if (num[1] - num[0] < 1.0 / 100.0)
                 cout << "the numbers are almost equal"
                      << "\n\nEnter two numbers or | to exit.\n";
             else

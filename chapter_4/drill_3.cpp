@@ -14,8 +14,9 @@ int main()
         else
         {
             sort(num);
-            cout << "The smaller value is: " << num[0]
-                 << "\nThe larger value is: " << num[1]
+
+            cout << "The smaller value is: " << num.begin()
+                 << "\nThe larger value is: " << num.end()
                  << "\n\nEnter two numbers or | to exit.\n";
         }
     }

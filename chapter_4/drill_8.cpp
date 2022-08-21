@@ -2,50 +2,54 @@
 
 int main()
 {
-    double val;
-    string unit;
-
-    constexpr double m_to_cm = 100;
+    constexpr double m_to_cm = 100.0;
     constexpr double in_to_cm = 2.54;
-    constexpr double ft_to_in = 12;
+    constexpr double ft_to_in = 12.0;
 
-    cout << "Enter  \n";
+    string unit;
+    double val;
+
+    vector<double> length;
+
+    cout << "Enter a number and unit or | to exit.\n";
 
     while (cin >> val >> unit)
     {
         if (unit == "cm")
         {
-            cout << val << unit << " == " << val / m_to_cm << "m\n"
-                 << val << unit << " == " << val / in_to_cm << "in\n"
-                 << val << unit << " == " << val / in_to_cm / ft_to_in << "ft\n\n"
-                 << "Enter  \n";
+            length.push_back(val / m_to_cm);
+            sort(length);
+            cout << "The smallest so far " << length[0] << "m\n"
+                 << "The largest so far " << length[length.size() - 1] << "m\n\n"
+                 << "Enter a number and unit or | to exit.\n";
         }
         else if (unit == "m")
         {
-            cout << val << unit << " == " << val * m_to_cm << "cm\n"
-                 << val << unit << " == " << val * m_to_cm / in_to_cm << "in\n"
-                 << val << unit << " == " << val * m_to_cm / in_to_cm / ft_to_in << "ft\n\n"
-                 << "Enter  \n";
+            length.push_back(val);
+            sort(length);
+            cout << "The smallest so far " << length[0] << "m\n"
+                 << "The largest so far " << length[length.size() - 1] << "m\n\n"
+                 << "Enter a number and unit or | to exit.\n";
         }
         else if (unit == "in")
         {
-            cout << val << unit << " == " << val * in_to_cm << "cm\n"
-                 << val << unit << " == " << val * in_to_cm / m_to_cm << "m\n"
-                 << val << unit << " == " << val / ft_to_in << "ft\n\n"
-                 << "Enter  \n";
+            length.push_back(val * in_to_cm / m_to_cm);
+            sort(length);
+            cout << "The smallest so far " << length[0] << "m\n"
+                 << "The largest so far " << length[length.size() - 1] << "m\n\n"
+                 << "Enter a number and unit or | to exit.\n";
         }
         else if (unit == "ft")
         {
-            cout << val << unit << " == " << val * ft_to_in * in_to_cm << "cm\n"
-                 << val << unit << " == " << val * ft_to_in * in_to_cm / m_to_cm << "m\n"
-                 << val << unit << " == " << val * ft_to_in << "in\n\n"
-                 << "Enter  \n";
+            length.push_back(val * ft_to_in * in_to_cm / m_to_cm);
+            sort(length);
+            cout << "The smallest so far " << length[0] << "m\n"
+                 << "The largest so far " << length[length.size() - 1] << "m\n\n"
+                 << "Enter a number and unit or | to exit.\n";
         }
         else
-        {
-            cout << "unknow unit\n\n"
-                 << "Enter  \n";
-        }
+            cout << "illegal unit\n\n"
+                 << "Enter a number and unit or | to exit.\n";
     }
 
     keep_window_open();
