@@ -9,10 +9,9 @@ int main()
     constexpr double kroner_per_dollars = 0.1;
 
     char currency = ' ';
-
     double money = 0.0;
 
-    cout << "Convert yen (y), euros (e), pounds (p), yuan (y) and kroner (k) into dollars:\n";
+    cout << "Convert yen (y), euros (e), pounds (p), yuan (Y) and kroner (k) into dollars:\n";
     cin >> money >> currency;
 
     switch (currency)
@@ -26,14 +25,14 @@ int main()
     case 'p':
         cout << money << " pounds are " << pounds_per_dollars * money << " dollars\n";
         break;
-    case 'f':
+    case 'Y':
         cout << money << " yuan are " << yuan_per_dollars * money << " dollars\n";
         break;
     case 'k':
         cout << money << " kroner are " << kroner_per_dollars * money << " dollars\n";
         break;
     default:
-    cout << "I don't know this currency\n";
+        cout << "I don't know this currency\n";
         break;
     }
 }
