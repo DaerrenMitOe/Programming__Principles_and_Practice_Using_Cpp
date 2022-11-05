@@ -7,7 +7,7 @@ int main()
 
     cout << "Please enter two values and one operation\n\n";
 
-    while (cin >> val1 >> val2 >> op)
+    while (cin >> val1 >> op >> val2)
     {
         switch (op)
         {

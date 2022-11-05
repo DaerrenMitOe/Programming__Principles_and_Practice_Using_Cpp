@@ -6,17 +6,12 @@ int main()
 
     int min = 1;
     int max = 100;
+    int guess = 50;
 
     cout << "Think of a number between 1 and 100\n";
     while (min <= max)
     {
         int guess = (max + min) / 2;
-
-        cout << "Is the number " << guess << "? (y/n)\n";
-        cin >> answer;
-
-        if (answer == 'y')
-            break;
 
         cout << "Is the number you are thinking of less than " << guess << "? (y/n)\n";
         cin >> answer;
@@ -29,6 +24,20 @@ int main()
         {
             min = guess + 1;
         }
+
+        guess = (max + min) / 2;
+
+        cout << "Is the number " << max << "? (y/n)\n";
+        cin >> answer;
+
+        if (answer == 'y')
+        {
+            cout << "Then " << max << " is your number." << '\n';
+            break;
+        }
     }
-    cout << "Then " << max << " is your number." << '\n';
+
+    keep_window_open();
+
+    return 0;
 }
